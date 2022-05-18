@@ -1,0 +1,27 @@
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.footer-icons-div {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.footer-icons {
+  width: 20px;
+  color: #3d3c3c;
+  margin: 10px;
+}
+.youTube {
+  width: 26px;
+}
+.footer-para {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+  color: #3d3c3c;
+}

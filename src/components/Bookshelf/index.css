@@ -1,0 +1,137 @@
+.bookshelves-app-div {
+  background: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.major-top-div {
+  display: block;
+  width: 80%;
+  padding-right: 30px;
+}
+.major-div {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin-top: 48px;
+}
+.left-div {
+  width: 350px;
+  background: #ffffff;
+}
+.left-bar-hd {
+  margin-left: 32px;
+  padding-top: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #334155;
+}
+.left-bar-ul {
+  padding: 0px;
+  margin-left: 27px;
+}
+.right-div {
+  margin-left: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.right-hd-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.right-hd {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  color: #334155;
+}
+.search-div {
+  width: 264px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  width: 100%;
+}
+.search-btn {
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+}
+.right-div-ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.renderAllBooks-div {
+  height: 100%;
+  overflow-y: scroll;
+}
+.search-empty-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.NoSearchImg {
+  width: 476px;
+  height: 327px;
+}
+.no-search-para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #334155;
+}
+.mobile-view-div {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .mobile-view-div {
+    display: block;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .major-top-div {
+    display: none;
+  }
+  .search-div {
+    width: 80%;
+  }
+  .left-div {
+    background: none;
+    margin-left: -30px;
+  }
+  .left-bar-ul {
+    display: flex;
+  }
+  .right-div-ul {
+    display: inherit;
+    flex-wrap: none;
+    width: 100%;
+  }
+  .renderAllBooks-div {
+    height: 80vh;
+  }
+}
