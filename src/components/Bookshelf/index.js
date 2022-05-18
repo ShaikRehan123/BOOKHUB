@@ -244,6 +244,7 @@ class Bookshelves extends Component {
             </div>
           </div>
         </div>
+
       </>
     )
   }
@@ -252,42 +253,5 @@ class Bookshelves extends Component {
 export default Bookshelves
 
 /* 
-<div className="mobile-view-div">
-            <div className="search-mb-div">
-              <div className="search-div">
-                <input
-                  type="search"
-                  className="search"
-                  placeholder="search"
-                  value={searchInput}
-                  onChange={this.onChangeSearchInput}
-                />
-                <button
-                  testid="searchButton"
-                  type="button"
-                  className="search-btn"
-                  onClick={this.onClickSearch}
-                >
-                  <BsSearch className="search-icon" />
-                </button>
-              </div>
-            </div>
-            <div className="left-div">
-              <h1 className="left-bar-hd">Bookshelves</h1>
-              <ul className="left-bar-ul">
-                {bookshelvesList.map(eachItem => (
-                  <BookshelvesItems
-                    key={eachItem.id}
-                    details={eachItem}
-                    clickingItem={this.changeShelfValue}
-                    isActive={activeItem === eachItem.id}
-                    setActiveTab={this.setActiveTab}
-                    setLabel={this.setLabel}
-                  />
-                ))}
-              </ul>
-            </div>
-            <div className="renderAllBooks-div">{this.renderAllBooks()}</div>
-            <Footer />
-          </div>
+
 */
